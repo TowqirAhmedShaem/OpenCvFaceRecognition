@@ -1,0 +1,8 @@
+import os
+os.system("cd /home/shaem/gitlab/FaceAccessControl")
+os.system("git status")
+os.system("git add .")
+commit = "Shaem"
+os.system("git commit -m "+commit)
+os.system("git push origin TestShaem")
+
